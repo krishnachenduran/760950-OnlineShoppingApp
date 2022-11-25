@@ -26,7 +26,7 @@ public class CategoryController {
 	
 	@Autowired
 	private SequenceGeneratorService sequenceGeneratorService;
-
+	
 	@GetMapping("all")
 	public ResponseEntity<List<Category>> getAllCategories() {
 		
